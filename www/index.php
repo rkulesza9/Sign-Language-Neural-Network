@@ -14,9 +14,9 @@
 
       function drawTable() {
         var data = new google.visualization.DataTable();
-        data.addColumn('string', 'Name');
-        data.addColumn('string', 'Description');
-        data.addColumn('string', 'Link');
+        data.addColumn('string', 'Project Name');
+        data.addColumn('string', 'Project Description');
+        data.addColumn('string', 'Demo');
         data.addColumn('string', 'Code');
 
         data.addRows([
@@ -27,8 +27,23 @@
 
            ['SLNN',
             'I created a Convolutional Neural Network (CNN) in tensorflow and trained it with Sign Language data from this <a href="https://www.kaggle.com/datamunge/sign-language-mnist">Kaggle Dataset</a>. I was able to tweak the network against the dataset to perform at 92% accuracy over the evaluation set. I saved the best performing model to file and by clicking the link, you can demo it here or view its code.',
-            "<a href='SLNN/index.html'>Click Here</a>",
+            "<a href='SLNN/index.php'>Click Here</a>",
             "<a href='https://github.com/rkulesza9/Sign-Language-Neural-Network'>Github</a>"],
+
+            ['Personal Blog',
+            'I created a blog to share life events as well as my enthusiasm for machine learning, programming, mathematics and more.',
+            "<a href='http://robkulesza.com'>Click Here</a>",
+            "<a href='https://github.com/rkulesza9/kuleszar-website'>Github</a>"],
+
+            ['Business Page',
+            'I created a business page which acts as my online resume.',
+            "<a href='http://robkulesza.com/business'>Click Here</a>",
+            "<a href='https://github.com/rkulesza9/kuleszar-website/tree/master/www/business'>Github</a>"],
+
+            ['Coursework',
+            'I compiled my major programming projects throughout my graduate and undergraduate experiences at kean university here. This includes a Computer Architecture assembly project, Database Management Systems graduate and undergraduate mysql php projects, and graduate and undergraduate machine learning projects.',
+            "<a href='http://coursework.robkulesza.com'>Click Here</a>",
+            "<a href='https://github.com/rkulesza9/kuleszar-website/tree/master/www/business'>Github</a>"],
 
         ]);
 
